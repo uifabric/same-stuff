@@ -1,0 +1,9 @@
+{
+  "name": "same-stuff",
+  "version": "1.0.0",
+  "description": "Convergence repo",
+  "main": "index.js",
+  "repository": "https://github.com/new-thing/same-stuff",
+  "author": "na@na.com",
+  "license": "MIT"
+}
