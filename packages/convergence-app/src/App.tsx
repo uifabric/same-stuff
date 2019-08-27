@@ -1,9 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.scss";
 import * as Fabric from "office-ui-fabric-react";
 import * as FabricExperiments from "@uifabric/experiments";
-import * as FabricCards from "@uifabric/react-cards";
 import * as Stardust from "@stardust-ui/react";
 import * as FastDNA from "@microsoft/fast-components-react-msft";
 
@@ -12,29 +10,38 @@ interface SampleCardProps {
   children?: JSX.Element | JSX.Element[];
 }
 
-const SampleCardTokens = {
-  padding: 10,
-  minWidth: 300,
-  maxWidth: 500,
-  justifyContent: "start"
-};
+/** @deprecated Interfaces and types prefixed with I have been renamed to remove the prefix. Import X instead. */
+export type ISampleCardProps = SampleCardProps;
 
 const SampleCard = (props: SampleCardProps) => (
-  <FabricCards.Card root={{ verticalAlign: "start" }} tokens={SampleCardTokens}>
-    <FabricCards.CardSection>
-      <Fabric.Text variant="large" style={{ fontWeight: "bold" }}>
-        {props.title}
-      </Fabric.Text>
-    </FabricCards.CardSection>
-    <FabricCards.CardSection>{props.children}</FabricCards.CardSection>
-  </FabricCards.Card>
+  <div className="Card">
+    <Fabric.Text variant="large" style={{ fontWeight: "bold" }}>
+      {props.title}
+    </Fabric.Text>
+    {props.children}
+  </div>
 );
 
 const AllButtons = () => (
   <>
     <SampleCard title="Fabric components">
-      <Fabric.PrimaryButton text="Hello, world" />
-      <Fabric.DefaultButton text="Hello, world" />
+      <FabricExperiments.Button
+        primary
+        icon="Upload"
+        content="Primary button"
+      />
+      <FabricExperiments.Button
+        primary
+        disabled
+        icon="Upload"
+        content="Primary button (disabled)"
+      />
+      <FabricExperiments.Button icon="Upload" content="Default button" />
+      <div className="HorizontalStack">
+        <FabricExperiments.Button circular primary icon="Upload" />
+        <FabricExperiments.Button circular primary disabled icon="Upload" />
+        <FabricExperiments.Button circular icon="Upload" />
+      </div>
 
       <Fabric.Checkbox label="I am a Checkbox" checked />
       <Fabric.Checkbox label="I am a Checkbox" />
@@ -44,19 +51,27 @@ const AllButtons = () => (
           { key: "2", text: "Option 2" }
         ]}
       />
-      <Fabric.Slider min={0} max={10} showValue={false} />
-      <Fabric.TextField placeholder="Enter text" />
+      <Fabric.Slider className="stretch" min={0} max={10} showValue={false} />
+      <Fabric.TextField className="stretch" placeholder="Enter text" />
       <Fabric.Spinner />
-      <Fabric.ProgressIndicator />
-      <FabricExperiments.MicroFeedback />
+      <Fabric.ProgressIndicator className="stretch" />
     </SampleCard>
 
     <SampleCard title="FastDNA components">
-      <FastDNA.Button appearance={FastDNA.ButtonAppearance.primary}>
-        Hello, world
-      </FastDNA.Button>
+      <FastDNA.Button
+        appearance={FastDNA.ButtonAppearance.primary}
+        beforeContent={() => <Fabric.Icon iconName="upload" />}
+        children="Primary button"
+      />
+      <FastDNA.Button
+        disabled
+        appearance={FastDNA.ButtonAppearance.primary}
+        beforeContent={() => <Fabric.Icon iconName="upload" />}
+        children="Primary button (disabled)"
+      />
+      <FastDNA.Button>Default button</FastDNA.Button>
       <FastDNA.Button appearance={FastDNA.ButtonAppearance.outline}>
-        Hello, world
+        Outline button
       </FastDNA.Button>
       <FastDNA.Checkbox inputId={"12"} checked>
         <FastDNA.Label slot={"label"} htmlFor={"12"}>
@@ -79,14 +94,20 @@ const AllButtons = () => (
         </FastDNA.Label>
       </FastDNA.Radio>
       <FastDNA.Slider />
-      <FastDNA.TextField placeholder="Enter text" />
+      <FastDNA.TextField className="stretch" placeholder="Enter text" />
       <FastDNA.Progress circular />
       <FastDNA.Progress />
     </SampleCard>
 
     <SampleCard title="Stardust components">
-      <Stardust.Button primary content="Hello, world" />
-      <Stardust.Button content="Hello, world" />
+      <Stardust.Button primary content="Primary button" />
+      <Stardust.Button primary disabled content="Primary button (disabled)" />
+      <Stardust.Button content="Default button" />
+      <div className="HorizontalStack">
+        <Stardust.Button circular primary icon="star" />
+        <Stardust.Button circular primary disabled icon="star" />
+        <Stardust.Button circular icon="star" />
+      </div>
       <Stardust.Checkbox label="I am a Checkbox" checked />
       <Stardust.Checkbox label="I am a Checkbox" />
       <Stardust.RadioGroup
@@ -98,15 +119,8 @@ const AllButtons = () => (
         ]}
       />
       <Stardust.Slider fluid />
-      <Stardust.Input placeholder="Enter text" />
+      <Stardust.Input className="stretch" placeholder="Enter text" />
       <Stardust.Loader />
-
-      <Stardust.Reaction.Group
-        items={[
-          { icon: "thumbs up", key: "up", content: "2K" },
-          { icon: "thumbs down", key: "down", content: 10 }
-        ]}
-      />
     </SampleCard>
   </>
 );
