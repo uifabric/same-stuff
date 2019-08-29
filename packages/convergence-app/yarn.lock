@@ -1064,10 +1064,10 @@
   resolved "https://registry.yarnpkg.com/@microsoft/fast-glyphs-msft/-/fast-glyphs-msft-4.0.2.tgz#a98728bdf58ff67a70105b77afa3794106f1115d"
   integrity sha512-ObJQNUQ78k/FUIAbHN8XzlR9ULLgBA/aPVWPkWgnClAPzlc/mvA8Qr3llu3bOtHMWCtJSIC3KR58X5RFKU3Z/g==
 
-"@microsoft/fast-jss-manager-react@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/fast-jss-manager-react/-/fast-jss-manager-react-4.4.0.tgz#ebf0a6408be7576a036faa78fbe8e5d00eb9e024"
-  integrity sha512-bw0xkBgtC1MCojTsLTypoCPRuDweo6mOS6R13OfN+Qo2QHqLIca+rWVXBaT2PSA39OtWbVLEVG52ljf/c752jA==
+"@microsoft/fast-jss-manager-react@^4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/fast-jss-manager-react/-/fast-jss-manager-react-4.4.1.tgz#9be7777041f394db98b962f69bee73d6840a1a7f"
+  integrity sha512-tCGA3Q+SPuUVHPcviON8D5U+KJWkwrzxmPB+GfPEaYvwH51gCaSSNYW8ZP6sI59qm79dRUD7SFUHyjDLYgkNBQ==
   dependencies:
     "@microsoft/fast-jss-manager" "^4.1.5"
     hoist-non-react-statics "^3.1.0"
