@@ -1019,10 +1019,10 @@
   resolved "https://registry.yarnpkg.com/@microsoft/fast-components-foundation-react/-/fast-components-foundation-react-3.1.1.tgz#61ad002c1675aa6cc9be40188255710b4ada9d7d"
   integrity sha512-aHV5bKWfmzukp1qKvz+fsJd8YdJhiK0rMmgBQmaejcsCCXTvBXPmNSjNqZMpq0yE1BGi1t3mVrocmGTvg3EuLg==
 
-"@microsoft/fast-components-react-base@^4.14.3":
-  version "4.14.3"
-  resolved "https://registry.yarnpkg.com/@microsoft/fast-components-react-base/-/fast-components-react-base-4.14.3.tgz#0452387b1ceda245ce86bd37abdab5e2c5e3be80"
-  integrity sha512-DQnBRj1Nrw8rSQbmE6odrvhLGygmElcHUsqEKQvaUguuOk2J/UNG2kx4Wh/xiW6GYrK3nN4yrtB+PAMf63pBHw==
+"@microsoft/fast-components-react-base@^4.15.0":
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/fast-components-react-base/-/fast-components-react-base-4.15.0.tgz#16d8a719985646376a4e3609da0786a8b80e8055"
+  integrity sha512-Mw2mxjQSzRxsVl8rUzqRIe8wGajkKCJBJHFUtfYyU5UK9JEYEjNldI92EkgZRsB/IUnPmP4kJjZ2pbcS4yCihA==
   dependencies:
     "@microsoft/fast-components-class-name-contracts-base" "^4.3.1"
     "@microsoft/fast-components-foundation-react" "^3.1.1"
@@ -1031,26 +1031,26 @@
     raf-throttle "^2.0.3"
     utility-types "^2.1.0"
 
-"@microsoft/fast-components-react-msft@^4.19.3":
-  version "4.19.3"
-  resolved "https://registry.yarnpkg.com/@microsoft/fast-components-react-msft/-/fast-components-react-msft-4.19.3.tgz#23dd792962c1fb5db878ffa8f5b048318c45fd9d"
-  integrity sha512-XOdAr7as4HEeA4WKRnWUtDs4oqzCy2htnEx2ia/5u27N0ncxnSJLptgz+09Oo1CjNaje7mNdZbq8YNVzuS51jA==
+"@microsoft/fast-components-react-msft@^4.20.0":
+  version "4.20.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/fast-components-react-msft/-/fast-components-react-msft-4.20.0.tgz#84060a66f93aebdac3dc3986f167a5394a1cae21"
+  integrity sha512-iVPP3YVdcNZDzkW4Vna3l0zHHRsPIdHBcaFdiSdE/2ZieN9ppK/ifFJ/NzifB8ehDMXjf4xtaRhR4t8h+DcMCQ==
   dependencies:
     "@microsoft/fast-components-class-name-contracts-base" "^4.3.1"
     "@microsoft/fast-components-class-name-contracts-msft" "^4.7.2"
     "@microsoft/fast-components-foundation-react" "^3.1.1"
-    "@microsoft/fast-components-react-base" "^4.14.3"
-    "@microsoft/fast-components-styles-msft" "^4.20.2"
+    "@microsoft/fast-components-react-base" "^4.15.0"
+    "@microsoft/fast-components-styles-msft" "^4.21.0"
     "@microsoft/fast-glyphs-msft" "^4.0.2"
     "@microsoft/fast-jss-utilities" "^4.6.2"
     "@microsoft/fast-web-utilities" "^4.3.0"
     exenv-es6 "^1.0.0"
     utility-types "^2.1.0"
 
-"@microsoft/fast-components-styles-msft@^4.20.2":
-  version "4.20.2"
-  resolved "https://registry.yarnpkg.com/@microsoft/fast-components-styles-msft/-/fast-components-styles-msft-4.20.2.tgz#c14835492e4ad98601a49691572f0ee0ffafa88b"
-  integrity sha512-Zf7SA3qaRLvdxiT13Q4VyfcoUkdT6iM2Ps41DxweVNQ7oICEAFZ4rLVcDOylLlkPNFXCqILc0YPYxFVZwhx+Iw==
+"@microsoft/fast-components-styles-msft@^4.21.0":
+  version "4.21.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/fast-components-styles-msft/-/fast-components-styles-msft-4.21.0.tgz#ec757c2b24e611793e479236462bf4c9d2099b12"
+  integrity sha512-3zjcjq4t6PEKsJBYat+alBA6x/8B5fF8xCz+Xj42p902ewihgVDTjToC0XllGHS51hlBwtRbgzUK6C0PrnoUVQ==
   dependencies:
     "@microsoft/fast-colors" "^5.0.0"
     "@microsoft/fast-components-class-name-contracts-base" "^4.3.1"
