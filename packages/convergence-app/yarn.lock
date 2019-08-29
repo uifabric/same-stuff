@@ -1159,30 +1159,30 @@
     fela-utils "^10.5.0"
     isobject "^3.0.1"
 
-"@stardust-ui/react-component-event-listener@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@stardust-ui/react-component-event-listener/-/react-component-event-listener-0.36.0.tgz#fc07a32c4295629cb0a69bb080de5c86e2774e1a"
-  integrity sha512-o/FvXXfiM8tHAZwu8O3UEMSt8XzajgA9y61OcYz3qg7OxMNZHzZHSnhQ3vazBE4y2Hz8FbjLgCEj6XeyYBlWbw==
+"@stardust-ui/react-component-event-listener@^0.37.0":
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/@stardust-ui/react-component-event-listener/-/react-component-event-listener-0.37.0.tgz#1aca683dec666a02c01aeb561c58759cbd9b0b62"
+  integrity sha512-KaViLGwqG+lIse3q2xbqddU6kFerNg3n4c8QYugWP3L9v/jTzKycGNcbjGrxugMbnU4hPn73Xapisu6XCtPGWw==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    prop-types "^15.6.1"
+    prop-types "^15.7.2"
 
-"@stardust-ui/react-component-nesting-registry@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@stardust-ui/react-component-nesting-registry/-/react-component-nesting-registry-0.36.0.tgz#fec0d495e63de76635d2014dddc3b93abc11051c"
-  integrity sha512-+cZMk5sda6ld/+j2wRuFMn3oWpuxCi2BWlslleNI34Y62alrZFmfk7Xox+EPAN+IZoVEG9XO8zI3IR/yoOG7Aw==
+"@stardust-ui/react-component-nesting-registry@^0.37.0":
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/@stardust-ui/react-component-nesting-registry/-/react-component-nesting-registry-0.37.0.tgz#0becd0f6b6651ecfe2f1cd45be8cd245fd51b5e3"
+  integrity sha512-7sugyU2U6BYW9uey23PgCLd3S/EY+NsN6aTKcvARd2N2ZglFe406kjecYo0YU73t9mF2mB1Rdc8zEWnPWjrRyw==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    prop-types "^15.6.1"
+    prop-types "^15.7.2"
 
-"@stardust-ui/react-component-ref@^0.36.2":
-  version "0.36.2"
-  resolved "https://registry.yarnpkg.com/@stardust-ui/react-component-ref/-/react-component-ref-0.36.2.tgz#539f74e819353252ce6f8bd4dea46efc98fed136"
-  integrity sha512-jRzgcRjJtHWNfOQ/wSsr8DVgXTxC2kWCLXSkhUm5fCrs0HMZRemPONoaX5HydGV/pm0VX5R2OMLXjnHnY6jycw==
+"@stardust-ui/react-component-ref@^0.37.0":
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/@stardust-ui/react-component-ref/-/react-component-ref-0.37.0.tgz#569d862eee7e408f3d1c1e9d2542eaa5ca3dcb98"
+  integrity sha512-awFDcxWMx3eBE7BOvqWzbRWtaDyblwmxhAVaS1gi5v8pVu5RQYnGsV2wfXRrvl9DfruYPFIzshHq7UMG7YqtXg==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    "@stardust-ui/react-proptypes" "^0.36.2"
-    prop-types "^15.6.1"
+    "@stardust-ui/react-proptypes" "^0.37.0"
+    prop-types "^15.7.2"
     react-is "^16.6.3"
 
 "@stardust-ui/react-fela@^10.6.2":
@@ -1194,27 +1194,27 @@
     "@stardust-ui/fela-dom" "^10.6.2"
     prop-types "^15.5.8"
 
-"@stardust-ui/react-proptypes@^0.36.2":
-  version "0.36.2"
-  resolved "https://registry.yarnpkg.com/@stardust-ui/react-proptypes/-/react-proptypes-0.36.2.tgz#7eb003f1e280cbe66ab5442c4aecc0931d95bbd9"
-  integrity sha512-6nivIHTPHrTzCQvrYKw3a2rUXHw40SInRY1JeZYh8W7CvxO7G9Uly2Tcth+fBrZYhLtBefHgtmJwdXs8mathFQ==
+"@stardust-ui/react-proptypes@^0.37.0":
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/@stardust-ui/react-proptypes/-/react-proptypes-0.37.0.tgz#da0acc22518a2e22c141726bc1ca08d8ce9cd722"
+  integrity sha512-2UI+QVvS4oQivV9h+7920aPjWo19UJpTtRtCeVUHu8TY9Z40btu7+sPZfRM+gtYIKN8nUKvWBspPpAFHVNsPiQ==
   dependencies:
     "@babel/runtime" "^7.1.2"
     lodash "^4.17.15"
-    prop-types "^15.6.1"
+    prop-types "^15.7.2"
 
-"@stardust-ui/react@^0.36.2":
-  version "0.36.2"
-  resolved "https://registry.yarnpkg.com/@stardust-ui/react/-/react-0.36.2.tgz#7376384404f9d0198f6e6acd9321b2ddaa870c85"
-  integrity sha512-Mk1zD5ANm56ZNxsaGonyYEekzQjZz/qzbTlu+v7JLYAd1BLc9QnoqfaFkQwHVMd7O9FogLxRKF9avT6l7/vMtw==
+"@stardust-ui/react@^0.37.0":
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/@stardust-ui/react/-/react-0.37.0.tgz#5b674b11794eaeb2956c9f9eb8defa24937dd5f4"
+  integrity sha512-QqwzpazHWE6IMlefOiJN0BS45DBsYt1h0NKg06KoLDDKcM0A6mukYez703IzSfH+0CQRzUQUXmhHrs0Jvyer+w==
   dependencies:
     "@babel/runtime" "^7.1.2"
     "@stardust-ui/fela" "^10.6.1"
-    "@stardust-ui/react-component-event-listener" "^0.36.0"
-    "@stardust-ui/react-component-nesting-registry" "^0.36.0"
-    "@stardust-ui/react-component-ref" "^0.36.2"
+    "@stardust-ui/react-component-event-listener" "^0.37.0"
+    "@stardust-ui/react-component-nesting-registry" "^0.37.0"
+    "@stardust-ui/react-component-ref" "^0.37.0"
     "@stardust-ui/react-fela" "^10.6.2"
-    "@stardust-ui/react-proptypes" "^0.36.2"
+    "@stardust-ui/react-proptypes" "^0.37.0"
     classnames "^2.2.5"
     downshift "^3.2.10"
     fast-memoize "^2.5.1"
@@ -1226,7 +1226,7 @@
     keyboard-key "^1.0.1"
     lodash "^4.17.15"
     popper.js "^1.15.0"
-    prop-types "^15.6.1"
+    prop-types "^15.7.2"
     react-is "^16.6.3"
     react-resize-detector "^4.2.0"
 
@@ -8631,7 +8631,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
