@@ -1522,7 +1522,7 @@
     office-ui-fabric-react "^7.27.1"
     tslib "^1.7.1"
 
-"@uifabric/foundation@^7.0.4", "@uifabric/foundation@^7.1.0":
+"@uifabric/foundation@^7.1.0":
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/@uifabric/foundation/-/foundation-7.1.0.tgz#1f47527032b3ccf42488aca5de5a39a492037a0f"
   integrity sha512-gLZRDjVKEDfOZO2lNDD1WDRAKupmWlwULkpmWmU/FuopNs3Y7qkf2XpjnpQnp/75wHRJEnLFenvXDfDIyg2ORQ==
@@ -1549,20 +1549,20 @@
     "@uifabric/set-version" "^7.0.2"
     tslib "^1.7.1"
 
-"@uifabric/react-cards@^0.107.9":
-  version "0.107.9"
-  resolved "https://registry.yarnpkg.com/@uifabric/react-cards/-/react-cards-0.107.9.tgz#c505f7b05f69a2201bf6e0fe733461ad0a3e20ba"
-  integrity sha512-6P7V+e5H9bhh3t+9WTGak+G0uHmPkPDXLKL8bMsInRnFgB33b4LF5K/AiBnXrtUjpexdrsUMgiJyF8fTr5bK4g==
+"@uifabric/react-cards@^0.108.0":
+  version "0.108.0"
+  resolved "https://registry.yarnpkg.com/@uifabric/react-cards/-/react-cards-0.108.0.tgz#b1126661961bd41990b960a352f27f9b0cc333d4"
+  integrity sha512-e5BlxqeIgmVpFdFFvuaMzumV7e2UgfqRDzq5WSdq5D5xAk4lygpCrGao49L231jKva0ap0MmzMN4Aelz0+J9EA==
   dependencies:
     "@microsoft/load-themed-styles" "^1.7.13"
     "@uifabric/azure-themes" "^7.0.6"
     "@uifabric/file-type-icons" "^7.0.7"
-    "@uifabric/foundation" "^7.0.4"
+    "@uifabric/foundation" "^7.1.0"
     "@uifabric/set-version" "^7.0.2"
     "@uifabric/styling" "^7.6.1"
     "@uifabric/theme-samples" "^7.0.4"
     "@uifabric/utilities" "^7.0.8"
-    office-ui-fabric-react "^7.27.1"
+    office-ui-fabric-react "^7.28.1"
     tslib "^1.7.1"
 
 "@uifabric/set-version@^7.0.2":
