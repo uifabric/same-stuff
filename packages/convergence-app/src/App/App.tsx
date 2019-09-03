@@ -13,14 +13,19 @@ interface SampleCardProps {
 /** @deprecated Interfaces and types prefixed with I have been renamed to remove the prefix. Import X instead. */
 export type ISampleCardProps = SampleCardProps;
 
-const SampleCard = (props: SampleCardProps) => (
-  <div className="Card">
-    <Fabric.Text variant="large" style={{ fontWeight: "bold" }}>
-      {props.title}
-    </Fabric.Text>
-    {props.children}
-  </div>
-);
+const SampleCard = (props: SampleCardProps) => {
+  //   const theme = fabricifyTheme(useTheme());
+  return (
+    <Fabric.Customizer settings={{}}>
+      <div className="Card">
+        <Fabric.Text variant="large" style={{ fontWeight: "bold" }}>
+          {props.title}
+        </Fabric.Text>
+        {props.children}
+      </div>
+    </Fabric.Customizer>
+  );
+};
 
 const AllButtons = () => (
   <>
@@ -42,7 +47,7 @@ const AllButtons = () => (
         <FabricExperiments.Button circular primary disabled icon="Upload" />
         <FabricExperiments.Button circular icon="Upload" />
       </div>
-
+      <Fabric.Link href="#">Hyperlink here</Fabric.Link>
       <Fabric.Checkbox label="I am a Checkbox" checked />
       <Fabric.Checkbox label="I am a Checkbox" />
       <Fabric.ChoiceGroup
@@ -60,19 +65,24 @@ const AllButtons = () => (
     <SampleCard title="FastDNA components">
       <FastDNA.Button
         appearance={FastDNA.ButtonAppearance.primary}
-        beforeContent={() => <Fabric.Icon iconName="upload" />}
+        beforeContent={className => (
+          <Stardust.Icon className={className} name="star" />
+        )}
         children="Primary button"
       />
       <FastDNA.Button
         disabled
         appearance={FastDNA.ButtonAppearance.primary}
-        beforeContent={() => <Fabric.Icon iconName="upload" />}
+        beforeContent={className => (
+          <Stardust.Icon className={className} name="star" />
+        )}
         children="Primary button (disabled)"
       />
       <FastDNA.Button>Default button</FastDNA.Button>
       <FastDNA.Button appearance={FastDNA.ButtonAppearance.outline}>
         Outline button
       </FastDNA.Button>
+      <FastDNA.Hypertext href="#">Hyperlink here</FastDNA.Hypertext>
       <FastDNA.Checkbox inputId={"12"} checked>
         <FastDNA.Label slot={"label"} htmlFor={"12"}>
           I am a Checkbox
@@ -100,14 +110,22 @@ const AllButtons = () => (
     </SampleCard>
 
     <SampleCard title="Stardust components">
-      <Stardust.Button primary content="Primary button" />
-      <Stardust.Button primary disabled content="Primary button (disabled)" />
-      <Stardust.Button content="Default button" />
+      <Stardust.Button primary icon="star" content="Primary button" />
+      <Stardust.Button
+        primary
+        icon="star"
+        disabled
+        content="Primary button (disabled)"
+      />
+      <Stardust.Button content="Default button" icon="star" />
       <div className="HorizontalStack">
         <Stardust.Button circular primary icon="star" />
         <Stardust.Button circular primary disabled icon="star" />
         <Stardust.Button circular icon="star" />
       </div>
+      <Stardust.Text as="a" href="http://asdf">
+        Hyperlink here
+      </Stardust.Text>
       <Stardust.Checkbox label="I am a Checkbox" checked />
       <Stardust.Checkbox label="I am a Checkbox" />
       <Stardust.RadioGroup
