@@ -8,7 +8,7 @@
     "@stardust-ui/react": "^0.37.0",
     "@uifabric/experiments": "^7.13.3",
     "@uifabric/react-cards": "^0.107.9",
-    "@uifabric/theme-samples": "^7.0.4",
+    "@uifabric/theme-samples": "^7.0.5",
     "fela": "^10.6.1",
     "lodash-es": "^4.17.15",
     "office-ui-fabric-react": "^7.27.1",
