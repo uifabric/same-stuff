@@ -1007,6 +1007,11 @@
   resolved "https://registry.yarnpkg.com/@microsoft/fast-components-class-name-contracts-base/-/fast-components-class-name-contracts-base-4.3.1.tgz#d1d101939cb9bed396ecaa9119d123673d006a58"
   integrity sha512-TMc0zFX1UiUpoKLRLd9tCcTvzRX99qg+Gq92cY2PQYvRNpytbxE7dT8KVrfDBnOnN8MCn7wS73aWbva7Iu9MNw==
 
+"@microsoft/fast-components-class-name-contracts-base@^4.3.2":
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/fast-components-class-name-contracts-base/-/fast-components-class-name-contracts-base-4.3.2.tgz#55890f4685ccf61d6c25046027a894de1697e80c"
+  integrity sha512-yj3/RPpUx22aNITHHQ86lNd2esFQDyh4dKYPh8/nDSux/XxwjftRFI5KAGZkd2CXqYrW8nFOz0IViV9Nk9E/OQ==
+
 "@microsoft/fast-components-class-name-contracts-msft@^4.7.2":
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/@microsoft/fast-components-class-name-contracts-msft/-/fast-components-class-name-contracts-msft-4.7.2.tgz#fc13810a4ded766d66d81ba24894b5d56aff61ef"
@@ -1064,22 +1069,22 @@
   resolved "https://registry.yarnpkg.com/@microsoft/fast-glyphs-msft/-/fast-glyphs-msft-4.0.2.tgz#a98728bdf58ff67a70105b77afa3794106f1115d"
   integrity sha512-ObJQNUQ78k/FUIAbHN8XzlR9ULLgBA/aPVWPkWgnClAPzlc/mvA8Qr3llu3bOtHMWCtJSIC3KR58X5RFKU3Z/g==
 
-"@microsoft/fast-jss-manager-react@^4.4.1":
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/@microsoft/fast-jss-manager-react/-/fast-jss-manager-react-4.4.1.tgz#9be7777041f394db98b962f69bee73d6840a1a7f"
-  integrity sha512-tCGA3Q+SPuUVHPcviON8D5U+KJWkwrzxmPB+GfPEaYvwH51gCaSSNYW8ZP6sI59qm79dRUD7SFUHyjDLYgkNBQ==
+"@microsoft/fast-jss-manager-react@^4.4.2":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/fast-jss-manager-react/-/fast-jss-manager-react-4.4.2.tgz#ca4038b9ab4a4449612eaf92fca1acfe84c0478c"
+  integrity sha512-0mDopbpBoIr63/IOABu8OV0qKNu/tPXzqYogd0G0H+NG+8AARDh5r+l/xAvqY1hhbxNx6SHg69DOMV7cx6CLkw==
   dependencies:
-    "@microsoft/fast-jss-manager" "^4.1.5"
+    "@microsoft/fast-jss-manager" "^4.1.6"
     hoist-non-react-statics "^3.1.0"
     jss "^9.8.0"
     jss-preset-default "^4.3.0"
 
-"@microsoft/fast-jss-manager@^4.1.5":
-  version "4.1.5"
-  resolved "https://registry.yarnpkg.com/@microsoft/fast-jss-manager/-/fast-jss-manager-4.1.5.tgz#ab1c0f86feb35e06186e4111a17251a179f26b87"
-  integrity sha512-/1n6iPPdEA4wWXIVW8DUs/+bGFIQEj1LWAHifxcbSwpKpcOzNrXL+eoVHaqfPg+l9VCxVWmdGksfvndwPbsUig==
+"@microsoft/fast-jss-manager@^4.1.5", "@microsoft/fast-jss-manager@^4.1.6":
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/@microsoft/fast-jss-manager/-/fast-jss-manager-4.1.6.tgz#d16de4f88b8fb37e7d8880269aabc901518a2c07"
+  integrity sha512-ROOZ0A2rrZY0o0KP+AOrJO/w17dtG0kCLLTCNt+MljO4eDCr2I88/MuvQLHB32Y7Lc8JsikLOm4/vqDHYUBtnw==
   dependencies:
-    "@microsoft/fast-components-class-name-contracts-base" "^4.3.1"
+    "@microsoft/fast-components-class-name-contracts-base" "^4.3.2"
     csstype "^2.3.0"
 
 "@microsoft/fast-jss-utilities@^4.6.2":
