@@ -5,7 +5,7 @@
   "dependencies": {
     "@microsoft/fast-components-react-msft": "^4.20.0",
     "@microsoft/fast-jss-manager-react": "^4.4.1",
-    "@stardust-ui/react": "^0.37.0",
+    "@stardust-ui/react": "^0.38.0",
     "@uifabric/experiments": "^7.13.3",
     "@uifabric/react-cards": "^0.107.9",
     "@uifabric/theme-samples": "^7.0.4",
