@@ -4453,23 +4453,23 @@ fela-plugin-rtl@^10.5.0:
   dependencies:
     rtl-css-js "^1.1.3"
 
-fela-utils@^10.5.0, fela-utils@^10.6.1:
-  version "10.6.1"
-  resolved "https://registry.yarnpkg.com/fela-utils/-/fela-utils-10.6.1.tgz#cbb58d94c32dddc0a561f28e67174f3b9ae27700"
-  integrity sha512-7xYmvfWpFwktchtXMnwbRNcAcCE3GRxYY44U7VUfAcnVUf+6JiuD72yVWLlsQcMMWRFlr+NRi/d5QvqgWNZAbA==
+fela-utils@^10.5.0, fela-utils@^10.7.0:
+  version "10.7.0"
+  resolved "https://registry.yarnpkg.com/fela-utils/-/fela-utils-10.7.0.tgz#d6cecab5aef4b66f61584ceb13743a8dc6ea75a4"
+  integrity sha512-CedIMP0o8nkfhUpd86I9/AAGlLMXhYt6JT/fIhn9an7n8TNKzvw7um7r69SZ4mDedXm6j79YRfQQzb6S+O2BBw==
   dependencies:
     css-in-js-utils "^3.0.0"
     fast-loops "^1.0.0"
 
-fela@^10.6.1:
-  version "10.6.1"
-  resolved "https://registry.yarnpkg.com/fela/-/fela-10.6.1.tgz#66a8349018a5c06908deca7fc18a83b0df9d63a6"
-  integrity sha512-Fp07Wst/BchfJAufCF+sfeMeIsB8hq+EHObpjUMrLfXcweqRtcJ5gg+47ncYO6W/HnRi1NBUzV+fY4tnMVm+MA==
+fela@^10.7.0:
+  version "10.7.0"
+  resolved "https://registry.yarnpkg.com/fela/-/fela-10.7.0.tgz#281510cc5cc05a57bb4223a7ed7f3ae1934c0d40"
+  integrity sha512-NxWcOuOAhxaSjbBDHTEh/MNkVhxniAxTE0zgWgNq7z6BZ+rgNAzIWYzwfMHJzhS9tQMG6F5Uy1A62JR/BGnytQ==
   dependencies:
     css-in-js-utils "^3.0.0"
     csstype "^2.5.5"
     fast-loops "^1.0.0"
-    fela-utils "^10.6.1"
+    fela-utils "^10.7.0"
     isobject "^3.0.1"
 
 figgy-pudding@^3.5.1:
