@@ -9,7 +9,7 @@
     "@uifabric/experiments": "^7.13.3",
     "@uifabric/react-cards": "^0.107.9",
     "@uifabric/theme-samples": "^7.0.4",
-    "fela": "^10.6.1",
+    "fela": "^10.8.0",
     "lodash-es": "^4.17.15",
     "office-ui-fabric-react": "^7.27.1",
     "react": "^16.9.0",
